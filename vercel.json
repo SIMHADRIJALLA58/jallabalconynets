@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "jallabalconynets.vercel.app"
+        }
+      ],
+      "destination": "https://jallabalconynets.in/$1",
+      "permanent": true
+    }
+  ]
+}
