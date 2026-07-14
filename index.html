@@ -17,10 +17,10 @@
     'phone_conversion_number': '9701744317'
   });
 </script>
-<script>gtag('event', 'conversion', {
+<!-- <script>gtag('event', 'conversion', {
   'send_to': 'AW-18088904725/3RgECM3y9c8cEJWQu7FD'
 });
-</script>
+</script> -->
 
 
 
@@ -1341,7 +1341,7 @@ WHY CHOOSE US SECTION
 
 </form>
 
-<p id="result">sss</p>      </div>
+<p id="result"></p>      </div>
 
       <!-- RIGHT SIDE -->
       <div class="contact-map-box" data-aos="fade-left">
@@ -1506,6 +1506,7 @@ form.addEventListener("submit", async function(e) {
     });
 
     const data = await response.json();
+    console.log(data);
 
     if (data.success) {
 
