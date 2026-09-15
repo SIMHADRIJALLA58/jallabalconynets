@@ -2058,13 +2058,13 @@ body {
 ========================= */
 .work-process-section{
   padding: 90px 0;
-  background: url('images/i.jpg');
+  background: url('images/i.webp');
   position: relative;
   overflow: hidden;
 }
   /* .work-process-section{
 background:
-            url('images/hero5.jpg');
+            url('images/hero5.webp');
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
